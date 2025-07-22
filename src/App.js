@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Realisations from "./pages/Realisations";
-import mentionslegals from "./pages/mentionslegal";
+import Mentionslegals from "./pages/Mentionslegals";
 
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
           <Link to="/Services">Services</Link>
           <Link to="/Contact">Contact</Link>
           <Link to="/Realisations">Réalisations</Link>
-          <Link to="/mentionslegal">mentions</Link>
+          <Link to="/Mentionslegals">mentions</Link>
         </nav>
 
         <Routes>
@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/Services" element={<Services/>} ></Route>
           <Route path="/Contact" element={<Contact/>} ></Route>
           <Route path="/Realisations" element={<Realisations/>} ></Route>
-            <Route path="/mentionslegal" element={<mentionslegals/>} ></Route>
+          <Route path="/Mentionslegals" element={<Mentionslegals/>}></Route>
         </Routes>
     </div>
   );
