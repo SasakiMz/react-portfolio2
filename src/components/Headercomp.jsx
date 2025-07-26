@@ -1,10 +1,10 @@
 import React from "react";
 
 
-export default HeaderComp = () => {
-    return {
-            
+const HeaderComp = () => {
+    <header>
+        <img src="#" alt="" />
+    </header>
+}
 
-
-    }
-};
+export default HeaderComp

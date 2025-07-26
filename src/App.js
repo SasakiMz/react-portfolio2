@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Realisations from "./pages/Realisations";
 import Mentionslegals from "./pages/Mentionslegals";
 import HeaderComp from "./components/Headercomp";
+import NavBar from "./components/NavBar";
 
 
 export default function App() {
