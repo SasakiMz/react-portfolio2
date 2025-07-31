@@ -12,14 +12,6 @@ import Mentions from "./pages/Mentions";
     <div>
       <h1>Hello World</h1>
       <NavBar/>
-      
-
-
-      <br></br><br></br>
-
-      <Contact/>
-<br></br><br></br>
-      <Mentions/>
 
     </div>
   );

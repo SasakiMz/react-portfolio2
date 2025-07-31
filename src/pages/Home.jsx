@@ -1,5 +1,7 @@
 import React from "react";
-
+import hero_bg from '../img/hero-bg.jpg'
+import hero_about from '../img/john-doe-about.jpg'
+ 
 
 const Home = () => {
 return(
@@ -7,15 +9,15 @@ return(
             <div className="image-background-home">
                 <h1>Bonjour, je suis John Doe</h1>
                 <h2>Développeur web full stack</h2>
+                <img src={hero_bg} alt="" />
                 <button>EN SAVOIR PLUS</button>
-                <img src="#" alt="" />
             </div>
         
         <div className="about">
             <div className="about-me">
                 <h3>A propos</h3>
                 <div className="image-about-me">
-                    <img src="" alt="" />
+                    <img src={hero_about} alt="" />
                 </div>
                 <div className="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia quos, ducimus neque vitae fugiat itaque culpa adipisci repudiandae facilis. Quibusdam quidem at dolorem deleniti omnis asperiores odio, nesciunt itaque!</p>
