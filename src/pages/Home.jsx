@@ -1,6 +1,7 @@
 import React from "react";
-import hero_bg from '../img/hero-bg.jpg'
-import hero_about from '../img/john-doe-about.jpg'
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import hero_bg from '../img/hero-bg.jpg';
+import hero_about from '../img/john-doe-about.jpg';
  
 
 const Home = () => {
