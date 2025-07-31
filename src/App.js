@@ -3,13 +3,23 @@ import { Routes, Route, Link} from "react-router-dom";
 
 import NavBar from "./components/Navbar/NavBar";
 import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Mentions from "./pages/Mentions";
+
 
     export default function App() {
   return(
     <div>
       <h1>Hello World</h1>
       <NavBar/>
+      
+
+
+      <br></br><br></br>
+
       <Contact/>
+<br></br><br></br>
+      <Mentions/>
 
     </div>
   );

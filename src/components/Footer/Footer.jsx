@@ -1,25 +1,20 @@
 import React from "react";
-
+ 
 
 const FooterComp = () => {
-    <footer>
-        <section name='contact-details'>
-            <div >
+    return (
+        <div className="footer">
+            <div className="about-me-footer">
 
             </div>
-            <div name='social-media'>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
+            <div className="links-utile">
+
             </div>
-        </section>
-        <section name='links-utiles'>
-
-        </section>
-        <section name='last-realisations'>
-
-        </section>
-    </footer>
+            <div className="lasts-realizations">
+                
+            </div>
+        </div>
+    )
 }
 
 export default FooterComp
