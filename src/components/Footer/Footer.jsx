@@ -3,7 +3,7 @@ import React from "react";
 
 const FooterComp = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             
             <div className="about-me-footer">
                 <h5>John Doe</h5>
@@ -43,7 +43,7 @@ const FooterComp = () => {
                 <p>Création d'une API</p>
                 <p>Maquette d'un site</p>
             </div>
-        </div>
+        </footer>
     )
 }
 

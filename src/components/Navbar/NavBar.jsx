@@ -35,15 +35,6 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/Services" element={<Services/>}></Route>
-            <Route path="/Portfolio" element={<Portfolio/>}></Route>
-            <Route path="/Contact" element={<Contact/>}></Route>
-            <Route path="/Mentions" element={<Mentions/>}></Route>
-          </Routes>
-        </div>
       </div>
     </nav>
     )

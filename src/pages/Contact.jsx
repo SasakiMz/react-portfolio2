@@ -6,7 +6,7 @@ return(
     <div className="Contact">
        <div className="HeaderContact">
             <h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus exercitationem, architecto, voluptates explicabo ex soluta atque amet esse vel eum nisi optio obcaecati? Maiores dignissimos, aliquam ea tenetur suscipit fugit!</p>
+            <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
        </div>
        <div className="board">
             <div className="form-contact">
