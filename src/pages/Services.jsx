@@ -4,6 +4,8 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Services = () => {
 return(
 <div>
+    <h1>Mon offre de Services</h1>
+    <div>Voici les prestations sur lesqueles je peux intervenir</div>
     <div class="card-Services">
      <img src="" class="card-img-top" alt=""/>
         <div class="card-body-Services">
