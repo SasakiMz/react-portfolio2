@@ -1,49 +1,46 @@
 import React from "react";
+import './footer.css';
+import githublogo from '../../img/logos/github-logo.png';
+import twitterlogo from '../../img/logos/twitter-logo.png';
+import linkedinlogo from '../../img/logos/linkedin-logo.png'
  
 
 const FooterComp = () => {
     return (
-        <footer className="footer">
-            
-            <div className="about-me-footer">
+       <div className="container">
+        <footer className="row">
+            <div className="col">
                 <h5>John Doe</h5>
-                <p>40 Rue Laure Diebold</p>
-                <p>69009 Lyon, France</p>
-                <p>10 20 30 40 50</p>
-                <p>John.Doe@gmail.com</p>
-                <ul>
-                    <li>
-                        <span></span>
-                        <span><i className="github-css"></i></span>
-                    </li>
-                    <li>
-                        <span></span>
-                        <span><i className="twitter-css"></i></span>
-                    </li>
-                    <li>
-                        <span></span>
-                        <span><i className="linkdin-css"></i></span>
-                    </li>
-                </ul>
+                <p className="pfooter">40 Rue Laure Diebold</p>
+                <p className="pfooter">69009 Lyon, France</p>
+                <p className="pfooter">10 20 30 40 50</p>
+                <p className="pfooter">John.Doe@gmail.com</p>
+                <div>
+                    <a href="/"><img src={githublogo} alt="" /></a>
+                    <a href="/"><img src={twitterlogo} alt="" /></a>
+                    <a href="/"><img src={linkedinlogo} alt="" /></a>
+                </div>
             </div>
-            <div className="links-utile">
+            <div className="col">
                 <h5>Liens utiles</h5>
-                <p>Accueil LIEN</p>
-                <p>Services LIEN</p>
-                <p>Portfolio LIEN</p>
-                <p>Me contacter LIEN</p>
-                <p>Mentions légales LIEN</p>
+                <p className="pfooter">Accueil LIEN</p>
+                <p className="pfooter">Services LIEN</p>
+                <p className="pfooter">Portfolio LIEN</p>
+                <p className="pfooter">Me contacter LIEN</p>
+                <p className="pfooter">Mentions légales LIEN</p>
             </div>
-            <div className="lasts-realizations">
+            <div className="col">
                 <h5>Mes dernières réalisations</h5>
-                <p>FreshFood</p>
-                <p>Restaurant Akira</p>
-                <p>Espace bien-être</p>
-                <p>SEO</p>
-                <p>Création d'une API</p>
-                <p>Maquette d'un site</p>
+                <p className="pfooter">FreshFood</p>
+                <p className="pfooter">Restaurant Akira</p>
+                <p className="pfooter">Espace bien-être</p>
+                <p className="pfooter">SEO</p>
+                <p className="pfooter">Création d'une API</p>
+                <p className="pfooter">Maquette d'un site</p>
             </div>
         </footer>
+       </div>
+       
     )
 }
 

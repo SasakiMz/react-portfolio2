@@ -24,6 +24,9 @@ import Footer from "./components/Footer/Footer";
         <Route path="/Mentions" element={<Mentions/>}></Route>
       </Routes>
     </div>
+    <div>
+      <Footer/>
+    </div>
     </div>
     
 

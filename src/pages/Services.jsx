@@ -1,17 +1,24 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../css/services.css"
+import banner from "../img/banner.jpg"
 
 const Services = () => {
 return(
-<div className="container text-center ">
+<div>
+    <picture><img src={banner} class="img-fluid"  alt="" /></picture>
+    <div className="container text-center ">
+    <div className="headerservices">
     <h1>Mon offre de Services</h1>
-    <div>Voici les prestations sur lesqueles je peux intervenir</div>
+    <p>Voici les prestations sur lesqueles je peux intervenir</p>
+    </div>
+    
     
     <div className="row">
         <div className="col">
             <div class="card">
                 <img src="" class="card-img-top" alt=""/>
-                <div class="card-body">
+                <div class="card-body card-services">
                     <h5 class="card-title">UX Design</h5>
                     <p class="card-text">
                         l'UX Design est une discipline qui consiste à concevoir des produits(sites web, appli mobiles,logiciels,objects connectés, etc) en plaçant
@@ -23,7 +30,7 @@ return(
         <div className="col">
             <div class="card">
                 <img src="" class="card-img-top" alt=""/>
-                <div class="card-body">
+                <div class="card-body card-services">
                     <h5 class="card-title">Développement web</h5>
                     <p class="card-text">
                         Le développement de sites web consiste à créer des sites internet en utilisant des langages de programmation (HTML, CSS, JavaScript, PHP, etc...) et des frameworks (bootstrap, React, Angular,etc...)            
@@ -34,7 +41,7 @@ return(
         <div className="col">
             <div class="card">
                 <img src="" class="card-img-top" alt=""/>
-                <div class="card-body">
+                <div class="card-body card-services">
                     <h5 class="card-title">Référencement</h5>
                     <p class="card-text">
                         le référencement naturel(SEO) est une technique qui consiste à optimiser un site web pour le faire remonter dans les résultats des moteurs
@@ -44,6 +51,7 @@ return(
             </div>            
         </div>
     </div>
+</div>
 </div>
 )
 }

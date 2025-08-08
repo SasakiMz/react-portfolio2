@@ -5,14 +5,15 @@ import Services from '../../pages/Services';
 import Contact from '../../pages/Contact';
 import Mentions from '../../pages/Mentions';
 import Portfolio from '../../pages/Portfolio';
+<link rel="stylesheet" href="navbar.css" />
 
 
 
 const NavBar = () => {
     return (
-    <nav class="navbar navbar-expand-lg bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
       <div class="container-fluid ">
-        <a class="navbar-brand" href="#">John Doe</a>
+        <a class="navbar-brand col-md-9" href="#">John Doe</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
