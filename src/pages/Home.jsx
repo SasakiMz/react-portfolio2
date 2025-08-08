@@ -6,47 +6,46 @@ import hero_about from '../img/john-doe-about.jpg';
 
 const Home = () => {
 return(
-    <div className="home">
-            <div className="image-background-home">
+    <div className="container">
+            <div>
                 <h1>Bonjour, je suis John Doe</h1>
                 <h2>Développeur web full stack</h2>
-                <img src={hero_bg} alt="" />
                 <button>EN SAVOIR PLUS</button>
             </div>
         
-        <div className="about">
-            <div className="about-me">
+        <div>
+            <div>
                 <h3>A propos</h3>
-                <div className="image-about-me">
+                <div>
                     <img src={hero_about} alt="" />
                 </div>
-                <div className="text">
+                <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia quos, ducimus neque vitae fugiat itaque culpa adipisci repudiandae facilis. Quibusdam quidem at dolorem deleniti omnis asperiores odio, nesciunt itaque!</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur neque itaque laboriosam similique eaque, repudiandae sequi incidunt assumenda. Quod laboriosam voluptatibus at, sint sit explicabo tenetur officiis recusandae sequi ratione.</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ab animi ullam ut est iure incidunt consectetur facilis odit repellendus porro sunt ex maiores aspernatur nostrum. Nisi repudiandae numquam labore.</p>
                 </div>
             </div>
-            <div className="skills">
+            <div>
                 <h3>Mes compétences</h3>
-                    <div className="skill-container">
-                        <span className="title">HTML5 90%</span>
-                        <span className="skill-bar"></span>
+                    <div>
+                        <span>HTML5 90%</span>
+                        <span></span>
                     </div>
-                    <div className="skill-container">
-                        <span className="title">CSS3 80%</span>
-                        <span className="skill-bar"></span>
+                    <div>
+                        <span>CSS3 80%</span>
+                        <span></span>
                     </div>
-                    <div className="skill-container">
-                        <span className="title">JAVASCRIPT 70%</span>
-                        <span className="skill-bar"></span>
+                    <div>
+                        <span>JAVASCRIPT 70%</span>
+                        <span></span>
                     </div>
-                    <div className="skill-container">
-                        <span className="title">PHP 60%</span>
-                        <span className="skill-bar"></span>
+                    <div>
+                        <span>PHP 60%</span>
+                        <span></span>
                     </div>
-                    <div className="skill-container">
-                        <span className="title">REACT 50%</span>
-                        <span className="skill-bar"></span>
+                    <div>
+                        <span>REACT 50%</span>
+                        <span></span>
                     </div>
             </div>
         </div>
