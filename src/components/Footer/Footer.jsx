@@ -7,30 +7,30 @@ import linkedinlogo from '../../img/logos/linkedin-logo.png'
 
 const FooterComp = () => {
     return (
-       <div className="container">
-        <footer className="row">
-            <div className="col">
-                <h5>John Doe</h5>
+       <div className="container-fluid bg-dark">
+        <footer className="row p-sm-5 px-xl-5">
+            <div className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5 ">
+                <h5 className="title-footer">John Doe</h5>
                 <p className="pfooter">40 Rue Laure Diebold</p>
                 <p className="pfooter">69009 Lyon, France</p>
                 <p className="pfooter">10 20 30 40 50</p>
                 <p className="pfooter">John.Doe@gmail.com</p>
-                <div>
+                <div className="mt-sm-3">
                     <a href="/"><img src={githublogo} alt="" /></a>
                     <a href="/"><img src={twitterlogo} alt="" /></a>
                     <a href="/"><img src={linkedinlogo} alt="" /></a>
                 </div>
             </div>
-            <div className="col">
-                <h5>Liens utiles</h5>
+            <div className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
+                <h5 className="title-footer">Liens utiles</h5>
                 <p className="pfooter">Accueil LIEN</p>
                 <p className="pfooter">Services LIEN</p>
                 <p className="pfooter">Portfolio LIEN</p>
                 <p className="pfooter">Me contacter LIEN</p>
                 <p className="pfooter">Mentions légales LIEN</p>
             </div>
-            <div className="col">
-                <h5>Mes dernières réalisations</h5>
+            <div className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
+                <h5 className="title-footer">Mes dernières réalisations</h5>
                 <p className="pfooter">FreshFood</p>
                 <p className="pfooter">Restaurant Akira</p>
                 <p className="pfooter">Espace bien-être</p>
@@ -40,7 +40,6 @@ const FooterComp = () => {
             </div>
         </footer>
        </div>
-       
     )
 }
 

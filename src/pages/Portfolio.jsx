@@ -21,26 +21,26 @@ return(
                 <div className="col">
                     <div class="card">
                         <img src={fresh_food} class="card-img-top" alt=""/>
-                    <div class="card-body">
-                        <h5 class="card-title">Fresh Food</h5>
-                        <p class="card-text">Site de vente de produits frais en ligne</p>
-                        <a href="#" class="btn btn-primary">Voir le site</a>
-                        <div className="footercard">
-                            <p>Site réalisé avec PHP et MySQL</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Food</h5>
+                            <p class="card-text">Site de vente de produits frais en ligne</p>
+                            <a href="#" class="btn btn-primary">Voir le site</a>
+                            <div className="footercard">
+                                <p>Site réalisé avec PHP et MySQL</p>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                <div class="card">
-                        <img src={restaurant_japonais} class="card-img-top" alt=""/>
-                    <div class="card-body">
-                        <h5 class="card-title">Restaurant Akira</h5>
-                        <p class="card-text">Site de vente de produits frais en ligne</p>
-                        <a href="#" class="btn btn-primary">Voir le site</a>
-                        <div className="footercard">
-                            <p>Site réalisé avec WordPress</p>
+                    <div class="card">
+                            <img src={restaurant_japonais} class="card-img-top" alt=""/>
+                        <div class="card-body">
+                            <h5 class="card-title">Restaurant Akira</h5>
+                            <p class="card-text">Site de vente de produits frais en ligne</p>
+                            <a href="#" class="btn btn-primary">Voir le site</a>
+                            <div className="footercard">
+                                <p>Site réalisé avec WordPress</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
                 <div className="col">
                     <div class="card">

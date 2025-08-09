@@ -1,23 +1,23 @@
 import React from "react";
-import { Routes, Route, Link} from "react-router";
+import {Link} from "react-router";
 import Home from '../../pages/Home';
 import Services from '../../pages/Services';
 import Contact from '../../pages/Contact';
 import Mentions from '../../pages/Mentions';
 import Portfolio from '../../pages/Portfolio';
-<link rel="stylesheet" href="navbar.css" />
+import "../Navbar/navbar.css"
 
 
 
 const NavBar = () => {
     return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark ">
       <div class="container-fluid ">
-        <a class="navbar-brand col-md-9" href="#">John Doe</a>
+        <a class="navbar-brand col-8" href="#">John Doe</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse col-4" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <Link to="" class="nav-link active" aria-current="page" >Home</Link>

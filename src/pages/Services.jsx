@@ -7,15 +7,13 @@ const Services = () => {
 return(
 <div>
     <picture><img src={banner} class="img-fluid"  alt="" /></picture>
-    <div className="container text-center ">
+    <div className="container text-center py-sm-5 ">
     <div className="headerservices">
-    <h1>Mon offre de Services</h1>
-    <p>Voici les prestations sur lesqueles je peux intervenir</p>
+        <h1>Mon offre de Services</h1>
+        <p>Voici les prestations sur lesqueles je peux intervenir</p>
     </div>
-    
-    
-    <div className="row">
-        <div className="col">
+    <div className="row py-sm-5">
+        <div className="col-sm-12 col-md-4 col-xl-4">
             <div class="card">
                 <img src="" class="card-img-top" alt=""/>
                 <div class="card-body card-services">
@@ -27,7 +25,7 @@ return(
                 </div>
             </div>        
         </div>
-        <div className="col">
+        <div className="col-sm-12 col-md-4 col-xl-4 py-sm-3">
             <div class="card">
                 <img src="" class="card-img-top" alt=""/>
                 <div class="card-body card-services">
@@ -38,7 +36,7 @@ return(
                 </div>
             </div>            
         </div>
-        <div className="col">
+        <div className="col-sm-12 col-md-4 col-xl-4">
             <div class="card">
                 <img src="" class="card-img-top" alt=""/>
                 <div class="card-body card-services">
