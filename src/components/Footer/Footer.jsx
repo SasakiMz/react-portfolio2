@@ -1,8 +1,8 @@
 import React from "react";
 import './footer.css';
-import githublogo from '../../img/logos/github-logo.png';
-import twitterlogo from '../../img/logos/twitter-logo.png';
-import linkedinlogo from '../../img/logos/linkedin-logo.png'
+import githublogo from '../../img/logos_social_media/github-logo.png';
+import twitterlogo from '../../img/logos_social_media/twitter-logo.png';
+import linkedinlogo from '../../img/logos_social_media/linkedin-logo.png'
  
 
 const FooterComp = () => {

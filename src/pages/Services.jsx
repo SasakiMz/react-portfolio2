@@ -1,7 +1,10 @@
-import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../css/services.css"
-import banner from "../img/banner.jpg"
+import "../css/services.css";
+import "../css/style.css";
+import banner from "../img/banner.jpg";
+import wen from "../img/flaticons/wen.png";
+import tag from "../img/flaticons/tag.png";
+import pencil from "../img/flaticons/pencil.png";
 
 const Services = () => {
 return(
@@ -15,7 +18,7 @@ return(
     <div className="row py-sm-5">
         <div className="col-sm-12 col-md-4 col-xl-4">
             <div class="card">
-                <img src="" class="card-img-top" alt=""/>
+                <img src={pencil} class="card-img-top" alt=""/>
                 <div class="card-body card-services">
                     <h5 class="card-title">UX Design</h5>
                     <p class="card-text">
@@ -27,7 +30,7 @@ return(
         </div>
         <div className="col-sm-12 col-md-4 col-xl-4 py-sm-3">
             <div class="card">
-                <img src="" class="card-img-top" alt=""/>
+                <img src={tag} class="card-img-top" alt=""/>
                 <div class="card-body card-services">
                     <h5 class="card-title">Développement web</h5>
                     <p class="card-text">
@@ -38,7 +41,7 @@ return(
         </div>
         <div className="col-sm-12 col-md-4 col-xl-4">
             <div class="card">
-                <img src="" class="card-img-top" alt=""/>
+                <img src={wen} class="card-img-top" alt=""/>
                 <div class="card-body card-services">
                     <h5 class="card-title">Référencement</h5>
                     <p class="card-text">

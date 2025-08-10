@@ -1,8 +1,13 @@
-import React from "react";
+import "../css/style.css";
+import email from "../img/flaticons/flaticons-contact/email.png";
+import map from "../img/flaticons/flaticons-contact/map.png";
+import phone_number from "../img/flaticons/flaticons-contact/phone-number.png";
+import point_map from "../img/flaticons/flaticons-contact/point-map.png";
+
 
 const Mentions = () => {
 return(
-<div>
+<div className="container">
     <h1>Mentions légales</h1>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
@@ -12,13 +17,15 @@ return(
             </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <strong>John Doe</strong>
-                <p>40 rue Laure Diebold</p>
-                <p>69009 Lyon, France</p>
-                <p>10 20 30 40 50</p>
-                <p>John.doe@gmail.com</p>
-            </div>
+                <div class="accordion-body">
+                            <h4>John Doe</h4>
+                            <div>
+                                <p className=""><img src={map} alt="" /> 40 rue Laure Diebold</p>
+                                <p className=""><img src={point_map} alt="" /> 69009 Lyon, France</p>
+                                <p className=""><img src={phone_number} alt="" /> 10 20 30 40 50</p>
+                                <p className=""><img src={email} alt="" /> john.doe@gmail.com</p>
+                            </div>      
+                </div>
             </div>
         </div>
         <div class="accordion-item">

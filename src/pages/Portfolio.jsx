@@ -1,4 +1,4 @@
-import React from "react";
+import "../css/style.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"; 
 import seo from '../img/portfolio/seo.jpg';
 import fresh_food from '../img/portfolio/fresh-food.jpg';
@@ -6,11 +6,13 @@ import restaurant_japonais from '../img/portfolio/restaurant-japonais.jpg';
 import screens from '../img/portfolio/screens.jpg';
 import bien_etre from '../img/portfolio/espace-bien-etre.jpg';
 import coder from '../img/portfolio/coder.jpg'
+import banner from "../img/banner.jpg";
+
 
 const Portfolio = () => {
 return(
     <div className="container">
-        <img src="" alt="" />
+        <picture><img src={banner} class="img-fluid"  alt="" /></picture>
         <div className="container text-center">
             <h1>Portfolio</h1>
             <p>Voici quelques-unes de mes réalisations.</p>
