@@ -11,13 +11,12 @@ import banner from "../img/banner.jpg";
 
 const Portfolio = () => {
 return(
-    <div className="container">
+    <main className="container">
         <picture><img src={banner} class="img-fluid"  alt="" /></picture>
-        <div className="container text-center">
+        <section className="container text-center">
             <h1>Portfolio</h1>
             <p>Voici quelques-unes de mes réalisations.</p>
-        </div>
-
+        </section>
         <div className="container">
             <div className="row">
                 <div className="col">
@@ -94,7 +93,7 @@ return(
                 </div>
             </div>        
         </div>
-    </div>
+    </main>
 )
 }
 export default Portfolio;

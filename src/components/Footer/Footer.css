@@ -1,12 +1,10 @@
 .pfooter {
-    color: white;
     margin: 0px;
 
 }
-.title-footer {
-    color: white;
-}
-
-footer {
+#footer {
     justify-content: center;
+    margin-top: 100%;
+
+
 }
