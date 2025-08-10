@@ -7,9 +7,9 @@ import linkedinlogo from '../../img/logos/linkedin-logo.png'
 
 const FooterComp = () => {
     return (
-       <div className="container-fluid bg-dark">
+       <div className="container-fluid bg-dark footerdiv">
         <footer className="row p-sm-5 px-xl-5">
-            <div className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5 ">
+            <section className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5 ">
                 <h5 className="title-footer">John Doe</h5>
                 <p className="pfooter">40 Rue Laure Diebold</p>
                 <p className="pfooter">69009 Lyon, France</p>
@@ -20,16 +20,16 @@ const FooterComp = () => {
                     <a href="/"><img src={twitterlogo} alt="" /></a>
                     <a href="/"><img src={linkedinlogo} alt="" /></a>
                 </div>
-            </div>
-            <div className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
+            </section>
+            <section className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
                 <h5 className="title-footer">Liens utiles</h5>
                 <p className="pfooter">Accueil LIEN</p>
                 <p className="pfooter">Services LIEN</p>
                 <p className="pfooter">Portfolio LIEN</p>
                 <p className="pfooter">Me contacter LIEN</p>
                 <p className="pfooter">Mentions légales LIEN</p>
-            </div>
-            <div className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
+            </section>
+            <section className="footer-case col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
                 <h5 className="title-footer">Mes dernières réalisations</h5>
                 <p className="pfooter">FreshFood</p>
                 <p className="pfooter">Restaurant Akira</p>
@@ -37,7 +37,7 @@ const FooterComp = () => {
                 <p className="pfooter">SEO</p>
                 <p className="pfooter">Création d'une API</p>
                 <p className="pfooter">Maquette d'un site</p>
-            </div>
+            </section>
         </footer>
        </div>
     )

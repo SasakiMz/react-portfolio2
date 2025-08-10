@@ -3,6 +3,7 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import hero_bg from '../img/hero-bg.jpg';
 import hero_about from '../img/john-doe-about.jpg';
 import "../css/home.css";
+import "../css/style.css"
 
  
 
@@ -24,11 +25,11 @@ return(
             </div>
         </div>
 
-        <div className="row border">
-            <div className="col">
+        <div className="sections row border">
+            <div className="col col-md-6">
                 <h3>A propos</h3>
                 <div>
-                    <img src={hero_about} alt="" />
+                    <img src={hero_about} class="img-fluid" alt="" />
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia quos, ducimus neque vitae fugiat itaque culpa adipisci repudiandae facilis. Quibusdam quidem at dolorem deleniti omnis asperiores odio, nesciunt itaque!</p>
@@ -36,8 +37,9 @@ return(
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ab animi ullam ut est iure incidunt consectetur facilis odit repellendus porro sunt ex maiores aspernatur nostrum. Nisi repudiandae numquam labore.</p>
                 </div>
             </div>
-            <div className="col">
-               <h3>Mes compétences</h3>
+            <div className="col col-md-6">
+               
+               <div class="border-bottom border-3 border-primary bordurebleu"><h3>Mes compétences</h3></div>
                <div className="html5">
                     <p className="pbarprogress">HTML5 90%</p>
                     <div class="progress">
@@ -69,12 +71,7 @@ return(
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
-
     </div>
 )
 }

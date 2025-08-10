@@ -1,0 +1,11 @@
+@media screen and (max-width:425px) {
+    .col {
+        flex-basis:90%;
+    }
+    .sections {
+        margin : 10% 10px 10% 10px;
+        padding :5% 0% 5% 0%;
+        
+    }
+
+}
