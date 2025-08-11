@@ -11,34 +11,40 @@ import banner from "../img/banner.jpg";
 
 const Portfolio = () => {
 return(
-    <main className="container">
+    <main>
         <picture><img src={banner} class="img-fluid"  alt="" /></picture>
         <section className="container text-center">
             <h1>Portfolio</h1>
-            <p>Voici quelques-unes de mes réalisations.</p>
+            <p className="">Voici quelques-unes de mes réalisations.</p>
+            <div class=" container text-center border-bottom border-4 border-primary mt-3 mb-5"></div>
         </section>
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <div class="card">
+                    <div class="card mt-3 mb-2">
                         <img src={fresh_food} class="card-img-top" alt=""/>
                         <div class="card-body">
-                            <h5 class="card-title">Fresh Food</h5>
-                            <p class="card-text">Site de vente de produits frais en ligne</p>
-                            <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard">
-                                <p>Site réalisé avec PHP et MySQL</p>
+                            <h5 class="card-title text-center">Fresh Food</h5>
+                            <p class="card-text text-center">Site de vente de produits frais en ligne</p>
+                            <div className="contact-btn mt-2 mb-1">
+                                <a href="#" class="btn btn-primary ">Voir le site</a>   
                             </div>
+                                                  
                         </div>
+                        <div className="footercard border-top border-dark-subtle text-center bg-light rounded-1 rounded-top-0">
+                                <div className="my-1">Site réalisé avec PHP et MySQL</div>
+                            </div>
+
                     </div>
+                    <span className=""></span>
                     <div class="card">
                             <img src={restaurant_japonais} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Restaurant Akira</h5>
                             <p class="card-text">Site de vente de produits frais en ligne</p>
                             <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard">
-                                <p>Site réalisé avec WordPress</p>
+                            <div className="footercard text-center">
+                                <span>Site réalisé avec WordPress</span>
                             </div>
                         </div>
                     </div>
@@ -50,8 +56,8 @@ return(
                             <h5 class="card-title">Espace bien-être</h5>
                             <p class="card-text">Site de vente de produits frais en ligne</p>
                             <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard">
-                                <p>Site réalisé avec LARAVEL</p>
+                            <div className="footercard text-center">
+                                <span>Site réalisé avec LARAVEL</span>
                             </div>
                         </div>
                     </div>
@@ -61,8 +67,8 @@ return(
                             <h5 class="card-title">SEO</h5>
                             <p class="card-text">Amélioration du référencement d'un site e-commerce</p>
                             <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard">
-                                <p>Utilisation des outils SEO</p>
+                            <div className="footercard border-top text-center">
+                                <span>Utilisation des outils SEO</span>
                             </div>
                         </div>
                     </div>    
@@ -74,8 +80,8 @@ return(
                             <h5 class="card-title">Création d'une API</h5>
                             <p class="card-text">Création d'une API RESTFULL publique</p>
                             <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard">
-                                <p>PHP - SYMFONY</p>
+                            <div className="footercard text-center">
+                                <span>PHP - SYMFONY</span>
                             </div>
                         </div>
                     </div>
@@ -86,8 +92,8 @@ return(
                             <p class="card-text">Création du prototype d'un site</p>
                             <a href="#" class="btn btn-primary">Voir le site</a>
                         </div>
-                        <div className="footercard">
-                            <p>Réalisé avec FIGMA</p>
+                        <div className="footercard text-center">
+                            <span>Réalisé avec FIGMA</span>
                         </div>
                     </div>
                 </div>

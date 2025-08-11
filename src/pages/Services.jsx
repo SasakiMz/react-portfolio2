@@ -8,12 +8,13 @@ import pencil from "../img/flaticons/pencil.png";
 
 const Services = () => {
 return(
-<div>
+<main>
     <picture><img src={banner} class="img-fluid"  alt="" /></picture>
     <div className="container text-center py-sm-5 ">
         <div className="headerservices">
             <h1>Mon offre de Services</h1>
-            <p>Voici les prestations sur lesqueles je peux intervenir</p>
+            <p>Voici les prestations sur lesquelles je peux intervenir</p>
+            <div class=" container text-center border-bottom border-4 border-primary mt-3 mb-5"></div>
         </div>
         <div className="row py-sm-5">
             <div className="col-sm-12 col-md-4 col-xl-4">
@@ -53,7 +54,7 @@ return(
             </div>
         </div>
     </div>
-</div>
+</main>
 )
 }
 export default Services;
