@@ -7,7 +7,7 @@ import linkedinlogo from '../../img/logos_social_media/linkedin-logo.png'
 
 const FooterComp = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid sticky-bottom">
             <footer className=" bg-dark text-white row" id="footer">
                 <div className="col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
                     <h5 className="title-footer">John Doe</h5>

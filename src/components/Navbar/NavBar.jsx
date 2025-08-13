@@ -5,40 +5,31 @@ import Services from '../../pages/Services';
 import Contact from '../../pages/Contact';
 import Mentions from '../../pages/Mentions';
 import Portfolio from '../../pages/Portfolio';
-import "../Navbar/navbar.css"
+
 
 
 
 const NavBar = () => {
     return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">John Doe</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">John Doe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse buttonsnavbar d-flex flex-row-reverse">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link to="" class="nav-link active" aria-current="page" >Home</Link>
-            </li>
-            <li class="nav-item">
-              <Link to="/Services" class="nav-link" >Services</Link>
-            </li>
-            <li class="nav-item">
-              <Link to="/Portfolio" class="nav-link" >Portfolio</Link>
-            </li>
-            <li class="nav-item">
-              <Link to="/Contact" class="nav-link" >Contact</Link>
-            </li>
-            <li class="nav-item">
-              <Link to="/Mentions" class="nav-link" >Mentions Légales</Link>
-            </li>
-          </ul>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <Link to="" class="nav-link" href="#">Home</Link>
+          <Link to="/Services" class="nav-link" href="#">Services</Link>
+          <Link to="/Portfolio" class="nav-link" href="#">Portfolio</Link>
+          <Link to="/Contact" class="nav-link" href="#">Contact</Link>
+          <Link to="Mentions" class="nav-link" href="#">Mentions Légales</Link>
         </div>
       </div>
-    </nav>
+  </div>
+</nav>
     )
 }
 
-export default NavBar
+export default NavBar;

@@ -1,5 +1,4 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../css/services.css";
 import "../css/style.css";
 import banner from "../img/banner.jpg";
 import wen from "../img/flaticons/wen.png";
