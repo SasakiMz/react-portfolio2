@@ -9,3 +9,11 @@
     padding-bottom: 40px;
 
 }
+.iconefooter:hover {
+    background-color: white;
+    opacity: 75%;
+}
+.pfooter a {
+    color: inherit;
+    text-decoration: none;
+}

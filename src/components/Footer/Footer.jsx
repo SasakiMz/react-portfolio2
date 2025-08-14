@@ -16,18 +16,18 @@ const FooterComp = () => {
                     <p className="pfooter">10 20 30 40 50</p>
                     <p className="pfooter">John.Doe@gmail.com</p>
                     <div className="mt-sm-3">
-                        <a href="/"><img src={githublogo} alt="" /></a>
-                        <a href="/"><img src={twitterlogo} alt="" /></a>
-                        <a href="/"><img src={linkedinlogo} alt="" /></a>
+                        <a href="/" className="iconefooter"><img src={githublogo} alt="" /></a>
+                        <a href="/" className="iconefooter"><img src={twitterlogo} alt="" /></a>
+                        <a href="/" className="iconefooter"><img src={linkedinlogo} alt="" /></a>
                     </div>
                 </div>
                 <div className="col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">                
                     <h5 className="title-footer">Liens utiles</h5>
-                    <p className="pfooter">Accueil LIEN</p>
-                    <p className="pfooter">Services LIEN</p>
-                    <p className="pfooter">Portfolio LIEN</p>
-                    <p className="pfooter">Me contacter LIEN</p>
-                    <p className="pfooter">Mentions légales LIEN</p>
+                    <p className="pfooter"><a href="">Accueil</a></p>
+                    <p className="pfooter"><a href="">Services</a></p>
+                    <p className="pfooter"><a href="">Portfolio</a></p>
+                    <p className="pfooter"><a href="">Me contacter</a></p>
+                    <p className="pfooter"><a href="">Mentions légales</a></p>
                 </div>
                 <div className="col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
                     <h5>Mes dernières réalisations</h5>

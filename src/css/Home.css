@@ -20,3 +20,11 @@
     margin-top: 12px;
     margin-bottom: 0px;
 }
+
+.hero {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}

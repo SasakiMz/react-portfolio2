@@ -19,7 +19,7 @@ const NavBar = () => {
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+        <div class="navbar-nav nav-underline">
           <Link to="" class="nav-link" href="#">Home</Link>
           <Link to="/Services" class="nav-link" href="#">Services</Link>
           <Link to="/Portfolio" class="nav-link" href="#">Portfolio</Link>

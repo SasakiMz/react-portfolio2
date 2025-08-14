@@ -9,13 +9,16 @@ import "../css/style.css";
 
 const Home = () => {
 return(
-    <div className="container">
-            <div className="text-center">
-                <h1>Bonjour, je suis John Doe</h1>
-                <h2>Développeur web full stack</h2>
+    <div className="">
+            <div className="text-center img-fluid hero">
+                <h1 className="d-flex justify-content-center text-center">Bonjour, je suis John Doe</h1>
+                <h2 className="d-flex justify-content-center text-center">Développeur web full stack</h2>
                 <button type="button" class="btn btn-danger">En savoir plus</button>
             </div>
-        <div className="sections row border rounded-1 shadow ">
+
+
+    <div className="container">
+                <div className="sections row border rounded-1 shadow ">
             <div className="col col-md-6">
                     <div class="border-bottom border-3 border-primary mb-5">
                         <h3>A propos</h3>
@@ -65,6 +68,8 @@ return(
                 </div>
             </div>
         </div>
+    </div>    
+
     </div>
 )
 }

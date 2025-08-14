@@ -28,72 +28,79 @@ return(
                             <p class="card-text text-center">Site de vente de produits frais en ligne</p>
                             <div className="contact-btn mt-2 mb-1">
                                 <a href="#" class="btn btn-primary ">Voir le site</a>   
-                            </div>
-                                                  
+                            </div>                        
                         </div>
                         <div className="footercard border-top border-dark-subtle text-center bg-light rounded-1 rounded-top-0">
-                                <div className="my-1">Site réalisé avec PHP et MySQL</div>
-                            </div>
-
-                    </div>
-                    <span className=""></span>
-                    <div class="card">
-                            <img src={restaurant_japonais} class="card-img-top" alt=""/>
-                        <div class="card-body">
-                            <h5 class="card-title">Restaurant Akira</h5>
-                            <p class="card-text">Site de vente de produits frais en ligne</p>
-                            <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard text-center">
-                                <span>Site réalisé avec WordPress</span>
-                            </div>
+                            <div className="my-1">Site réalisé avec PHP et MySQL</div>
                         </div>
                     </div>
-                </div>
-                <div className="col">
-                    <div class="card">
-                        <img src={bien_etre} class="card-img-top" alt=""/>
-                        <div class="card-body">
-                            <h5 class="card-title">Espace bien-être</h5>
-                            <p class="card-text">Site de vente de produits frais en ligne</p>
-                            <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard text-center">
-                                <span>Site réalisé avec LARAVEL</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
+                    <div class="card mt-3 mb-2">
                         <img src={seo} class="card-img-top" alt=""/>
                         <div class="card-body">
-                            <h5 class="card-title">SEO</h5>
-                            <p class="card-text">Amélioration du référencement d'un site e-commerce</p>
-                            <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard border-top text-center">
-                                <span>Utilisation des outils SEO</span>
-                            </div>
+                            <h5 class="card-title text-center">SEO</h5>
+                            <p class="card-text text-center">Amélioration du référencement d'un site e-commerce</p>
+                            <div className="contact-btn mt-2 mb-1">
+                                <a href="#" class="btn btn-primary ">Voir le site</a>   
+                            </div> 
                         </div>
-                    </div>    
-                </div>
-                <div className="col">
-                    <div class="card">
-                        <img src={coder} class="card-img-top" alt=""/>
-                        <div class="card-body">
-                            <h5 class="card-title">Création d'une API</h5>
-                            <p class="card-text">Création d'une API RESTFULL publique</p>
-                            <a href="#" class="btn btn-primary">Voir le site</a>
-                            <div className="footercard text-center">
-                                <span>PHP - SYMFONY</span>
-                            </div>
+                        <div className="footercard border-top border-dark-subtle text-center bg-light rounded-1 rounded-top-0">
+                             <div className="my-1">Utilisation des outils SEO</div>
                         </div>
                     </div>
-                    <div class="card">
+                </div>
+                <div className="col">
+                    <div class="card mt-3 mb-2">
+                            <img src={restaurant_japonais} class="card-img-top" alt=""/>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Restaurant Akira</h5>
+                            <p class="card-text text-center">Site de vente de produits frais en ligne</p>
+                            <div className="contact-btn mt-2 mb-1">
+                                <a href="#" class="btn btn-primary ">Voir le site</a>   
+                            </div>
+                        </div>
+                        <div className="footercard border-top border-dark-subtle text-center bg-light rounded-1 rounded-top-0">
+                            <div className="my-1">Site réalisé avec WordPress</div>
+                        </div>
+                    </div>
+                    <div class="card mt-3 mb-2">
+                        <img src={coder} class="card-img-top" alt=""/>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Création d'une API</h5>
+                            <p class="card-text text-center">Création d'une API RESTFULL publique</p>
+                            <div className="contact-btn mt-2 mb-1">
+                                <a href="#" class="btn btn-primary ">Voir le site</a>   
+                            </div>
+                        </div>
+                        <div className="footercard border-top border-dark-subtle text-center bg-light rounded-1 rounded-top-0">
+                            <div className="my-1">PHP - SYMFONY</div>
+                        </div>
+                    </div>                        
+                </div>
+                <div className="col">
+                    <div class="card mt-3 mb-2">
+                        <img src={bien_etre} class="card-img-top" alt=""/>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Espace bien-être</h5>
+                            <p class="card-text text-center">Site de vente de produits frais en ligne</p>
+                            <div className="contact-btn mt-2 mb-1">
+                                <a href="#" class="btn btn-primary ">Voir le site</a>   
+                            </div>
+                        </div>
+                        <div className="footercard border-top border-dark-subtle text-center bg-light rounded-1 rounded-top-0">
+                            <div className="my-1">Site réalisé avec LARAVEL</div>
+                        </div>
+                    </div>
+                    <div class="card mt-3 mb-2">
                         <img src={screens} class="card-img-top" alt=""/>
                         <div class="card-body">
-                            <h5 class="card-title">Maquette d'un site web</h5>
-                            <p class="card-text">Création du prototype d'un site</p>
-                            <a href="#" class="btn btn-primary">Voir le site</a>
+                            <h5 class="card-title text-center">Maquette d'un site web</h5>
+                            <p class="card-text text-center">Création du prototype d'un site</p>
+                            <div className="contact-btn mt-2 mb-1">
+                                <a href="#" class="btn btn-primary ">Voir le site</a>   
+                            </div>
                         </div>
-                        <div className="footercard text-center">
-                            <span>Réalisé avec FIGMA</span>
+                        <div className="footercard border-top border-dark-subtle text-center bg-light rounded-1 rounded-top-0">
+                            <div className="my-1">Réalisé avec FIGMA</div>
                         </div>
                     </div>
                 </div>
