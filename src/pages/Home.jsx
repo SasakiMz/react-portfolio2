@@ -10,13 +10,17 @@ import "../css/style.css";
 const Home = () => {
 return(
     <div className="">
-            <div className="text-center img-fluid hero">
-                <h1 className="d-flex justify-content-center text-center">Bonjour, je suis John Doe</h1>
-                <h2 className="d-flex justify-content-center text-center">Développeur web full stack</h2>
-                <button type="button" class="btn btn-danger">En savoir plus</button>
+            <div className="img-fluid hero" id="text_background">
+                <div className="">
+                    <div className="text-white text-center">                    
+                        <h1 className="mt-1">Bonjour, je suis John Doe</h1>
+                        <h2 className="mt-1">Développeur web full stack</h2>
+                    </div>
+                    <div className="text-center mt-1">
+                        <button type="button" class="btn btn-danger ">En savoir plus</button>
+                    </div>
+                </div>
             </div>
-
-
     <div className="container">
                 <div className="sections row border rounded-1 shadow ">
             <div className="col col-md-6">

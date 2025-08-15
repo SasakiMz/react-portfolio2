@@ -13,7 +13,7 @@ const Portfolio = () => {
 return(
     <main>
         <picture><img src={banner} class="img-fluid"  alt="" /></picture>
-        <section className="container text-center">
+        <section className="container text-center mt-3">
             <h1>Portfolio</h1>
             <p className="">Voici quelques-unes de mes réalisations.</p>
             <div class=" container text-center border-bottom border-4 border-primary mt-3 mb-5"></div>
