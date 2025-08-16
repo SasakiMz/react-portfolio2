@@ -1,4 +1,3 @@
-import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../css/contact.css";
 import "../css/style.css";
