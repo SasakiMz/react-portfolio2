@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router";
-import Home from '../../pages/home';
+import Home from '../../pages/home.jsx';
 import Services from '../../pages/services';
 import Contact from '../../pages/contact';
 import Mentions from '../../pages/mentions';
@@ -14,7 +14,7 @@ const NavBar = () => {
    
 <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">John Doe</a>
+    <a className="navbar-brand" href="">John Doe</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
       </button>

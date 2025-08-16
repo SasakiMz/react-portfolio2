@@ -55,9 +55,11 @@ return(
                     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             <strong>Crédits</strong>
-                            <p>Ce site a été réalisé par John Doe, étudiant au <a href="">Centre Européen de formation.</a></p>
-                            <p>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="">Pixabay</a></p>
-                            <p>La favicon de ce site a été fournie par <a href="&">John doe icons erstellt von Freepik - Flaticon</a></p>
+                            <p>Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/">Centre Européen de formation.</a></p>
+                            <p>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/fr/">Pixabay</a></p>
+                            <p>La favicon de ce site a été fournie par
+                                 <a href="https://www.flaticon.com/fr/icone-gratuite/anonyme_10946944?term=john+doe&page=1&position=3&origin=search&related_id=10946944">John doe icons erstellt von Freepik - Flaticon</a>
+                            </p>
                         </div>
                     </div>
                 </section>
