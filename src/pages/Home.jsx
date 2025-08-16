@@ -1,6 +1,5 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import hero_bg from '../img/hero-bg.jpg';
 import hero_about from '../img/john-doe-about.jpg';
 import "../css/home.css";
 import "../css/style.css";
@@ -64,8 +63,8 @@ return(
                         <div class="progress-bar bg-success barphp" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
-                 <div className="html5 mb-3">
-                    <p className="pbarprogress">REAT 50%</p>
+                 <div className="html5 mb-3 ">
+                    <p className="pbarprogress">REACT 50%</p>
                     <div class="progress mt-2">
                         <div class="progress-bar bg-primary barreact" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -73,7 +72,6 @@ return(
             </div>
         </div>
     </div>    
-
     </div>
 )
 }

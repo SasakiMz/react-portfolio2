@@ -1,6 +1,6 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../css/style.css";
-import "../css/services.css"
+import "../css/services.css";
 import banner from "../img/banner.jpg";
 import wen from "../img/flaticons/wen.png";
 import tag from "../img/flaticons/tag.png";

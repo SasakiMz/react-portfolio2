@@ -1,12 +1,15 @@
 import React from "react";
 import { Routes, Route, Link} from "react-router-dom";
-import NavBar from "./components/Navbar/NavBar.jsx";
-import Contact from "./pages/Contact";
-import Home from "./pages/Home";
-import Mentions from "./pages/Mentions";
-import Portfolio from "./pages/Portfolio";
-import Services from "./pages/Services";
+import NavBar from './components/navbar/navbar.jsx';
+import Contact from "./pages/contact.jsx";
+import Home from "./pages/home.jsx";
+import Mentions from "./pages/mentions.jsx";
+import Portfolio from "./pages/portfolio.jsx";
+import Services from "./pages/services.jsx";
 import Footer from "./components/Footer/Footer";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+
 
 
 
@@ -27,8 +30,6 @@ import Footer from "./components/Footer/Footer";
       <Footer/>
     </div>
     </div>
-    
-
   );
 };
 

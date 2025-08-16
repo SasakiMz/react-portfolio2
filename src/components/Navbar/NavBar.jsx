@@ -1,10 +1,10 @@
 import React from "react";
 import {Link} from "react-router";
-import Home from '../../pages/Home';
-import Services from '../../pages/Services';
-import Contact from '../../pages/Contact';
-import Mentions from '../../pages/Mentions';
-import Portfolio from '../../pages/Portfolio';
+import Home from '../../pages/home';
+import Services from '../../pages/services';
+import Contact from '../../pages/contact';
+import Mentions from '../../pages/mentions';
+import Portfolio from '../../pages/portfolio';
 
 
 
@@ -12,19 +12,19 @@ import Portfolio from '../../pages/Portfolio';
 const NavBar = () => {
     return (
    
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">John Doe</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+<nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#">John Doe</a>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav nav-underline">
-          <Link to="" class="nav-link" href="#">Home</Link>
-          <Link to="/Services" class="nav-link" href="#">Services</Link>
-          <Link to="/Portfolio" class="nav-link" href="#">Portfolio</Link>
-          <Link to="/Contact" class="nav-link" href="#">Contact</Link>
-          <Link to="Mentions" class="nav-link" href="#">Mentions Légales</Link>
+      <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div className="navbar-nav nav-underline">
+          <Link to="" className="nav-link" href="#">Home</Link>
+          <Link to="/Services" className="nav-link" href="#">Services</Link>
+          <Link to="/Portfolio" className="nav-link" href="#">Portfolio</Link>
+          <Link to="/Contact" className="nav-link" href="#">Contact</Link>
+          <Link to="Mentions" className="nav-link" href="#">Mentions Légales</Link>
         </div>
       </div>
   </div>
