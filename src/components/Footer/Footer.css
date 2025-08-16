@@ -2,6 +2,9 @@
     margin: 0px;
 
 }
+.pfooter:hover {
+    font-weight: bold;
+}
 #footer {
     justify-content: center;
     margin-top: 20%;
@@ -11,7 +14,6 @@
 }
 .iconefooter:hover {
     background-color: white;
-    opacity: 75%;
 }
 .pfooter a {
     color: inherit;

@@ -16,9 +16,9 @@ const FooterComp = () => {
                     <p className="pfooter">10 20 30 40 50</p>
                     <p className="pfooter">John.Doe@gmail.com</p>
                     <div className="mt-sm-3">
-                        <a target="_blank" href="/" className="iconefooter"><img src={githublogo} alt="" /></a>
-                        <a target="_blank" href="/" className="iconefooter"><img src={twitterlogo} alt="" /></a>
-                        <a target="_blank" href="/" className="iconefooter"><img src={linkedinlogo} alt="" /></a>
+                        <a target="_blank" href="/" ><img className="iconefooter mx-1 " src={githublogo} alt="" /></a>
+                        <a target="_blank" href="/" ><img className="iconefooter mx-1" src={twitterlogo} alt="" /></a>
+                        <a target="_blank" href="/" ><img className="iconefooter mx-1" src={linkedinlogo} alt="" /></a>
                     </div>
                 </div>
                 <div className="col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">                

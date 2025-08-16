@@ -1,6 +1,6 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import hero_about from '../img/john-doe-about.jpg';
+import hero_about from '../img/home_img/john-doe-about.jpg';
 import "../css/home.css";
 import "../css/style.css";
 
