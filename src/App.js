@@ -6,7 +6,7 @@ import Home from "./pages/home.jsx";
 import Mentions from "./pages/mentions.jsx";
 import Portfolio from "./pages/portfolio.jsx";
 import Services from "./pages/services.jsx";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/footer.jsx";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
