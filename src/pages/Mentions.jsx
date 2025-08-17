@@ -72,8 +72,12 @@ return(
                             <h3 className="title-font">Crédits</h3>
                             <p>Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/" target="_blank" rel="noopener noreferrer">Centre Européen de formation.</a></p>
                             <p>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/fr/" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
-                            <p>La favicon de ce site a été fournie par
-                                 <a href="https://www.flaticon.com/fr/icone-gratuite/anonyme_10946944?term=john+doe&page=1&position=3&origin=search&related_id=10946944" target="_blank" rel="noopener noreferrer">John doe icons erstellt von Freepik - Flaticon</a>
+                            <p>La favicon de ce site a été fournie par 
+                                <a href="https://www.flaticon.com/fr/icone-gratuite/anonyme_10946944?term=john+doe&page=1&position=3&origin=search&related_id=10946944" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer">
+                                        John doe icons erstellt von Freepik - Flaticon
+                                </a>  
                             </p>
                         </div>
                     </div>

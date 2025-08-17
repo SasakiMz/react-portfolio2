@@ -14,17 +14,17 @@ const FooterComp = () => {
                     <h5 className="title-footer">John Doe</h5>
                     <address>
                         <p>40 Rue Laure Diebold</p>
-                        <p>69009 Lyon, France</p>
+                        <p >69009 Lyon, France</p>
                         <p>10 20 30 40 50</p>
                         <p>John.Doe@gmail.com</p>
                     </address>
                     <div className="mt-sm-3">
-                        <a target="_blank" href="/" rel="noopener noreferrer" ><img className="iconefooter mx-1 " src={githublogo} alt="Lien vers Github" /></a>
-                        <a target="_blank" href="/" rel="noopener noreferrer" ><img className="iconefooter mx-1" src={twitterlogo} alt="Lien vers Twitter" /></a>
-                        <a target="_blank" href="/" rel="noopener noreferrer" ><img className="iconefooter mx-1" src={linkedinlogo} alt="Lien vers LinkedIn" /></a>
+                        <a target="_blank" href="https://github.com/users/github-john-doe" rel="noopener noreferrer" ><img className="iconefooter mx-1 " src={githublogo} alt="Lien vers Github" /></a>
+                        <a target="_blank" href="https://x.com/john-doe" rel="noopener noreferrer" ><img className="iconefooter mx-1" src={twitterlogo} alt="Lien vers Twitter" /></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/john-doe" rel="noopener noreferrer" ><img className="iconefooter mx-1" src={linkedinlogo} alt="Lien vers LinkedIn" /></a>
                     </div>
                 </div>
-                <div className="col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">                
+                <div className="col-phone-12 col-md-3 col-xl-3 pt-3 px-xl-5">
                     <h5 className="title-footer">Liens utiles</h5>
                     <ul className="list-unstyled ps-0">
                         <li><a href="/" className="pfooter">Accueil</a></li>

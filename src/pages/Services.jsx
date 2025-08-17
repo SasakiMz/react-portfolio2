@@ -22,7 +22,7 @@ return(
                         <img src={pencil} className="card-img-top icons_services" alt=""/>
                     </div>
                     <div className="card-body ">
-                        <h5 className="card-title">UX Design</h5>
+                        <h5 className="card-title title-font">UX Design</h5>
                         <p className="card-text paragraph">
                             l'UX Design est une discipline qui consiste à concevoir des produits en plaçant
                             l'utilisateur au centre des préoccupations. l'Objectif est de rendre l'expérience utilisateur la plus fluide et agréable possible.
@@ -36,7 +36,7 @@ return(
                         <img src={tag} className="card-img-top icons_services" alt=""/>
                     </div>
                     <div className="card-body ">
-                        <h5 className="card-title">Développement web</h5>
+                        <h5 className="card-title title-font">Développement web</h5>
                         <p className="card-text paragraph pb-3 pb-md-4">
                             Le développement de sites web consiste à créer des sites internet en utilisant des langages de programmation et des frameworks
                         </p>
@@ -48,9 +48,8 @@ return(
                     <div className="justify-content-center my-3">
                         <img src={wen} className="card-img-top icons_services" alt=""/>
                     </div>
-                   
                     <div className="card-body ">
-                        <h5 className="card-title">Référencement</h5>
+                        <h5 className="card-title title-font">Référencement</h5>
                         <p className="card-text paragraph">
                             le référencement naturel est une technique qui consiste à optimiser un site web pour le faire remonter dans les résultats des moteurs
                             de recherche.L'Objectif est d'attirer un maximum de visiteurs qualifiés sur le site.            

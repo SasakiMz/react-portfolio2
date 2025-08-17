@@ -15,7 +15,7 @@
 .iconefooter:hover {
     background-color: white;
 }
-.pfooter, a {
+.pfooter {
     color: inherit;
     text-decoration: none;
 }
