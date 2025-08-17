@@ -8,6 +8,16 @@
         
     }
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000&display=swap');
+
+    .paragraph{
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+    }
+    .title-font{
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 800;
+    }
 
 .sections {
         margin : 5% 10px 5% 10px;
@@ -32,4 +42,14 @@
 .icons_services {
     height: 64px;
     width:64px;
+}
+
+strong {
+    text-align: justify;
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+.card_services {
+    height: 100%;
 }
